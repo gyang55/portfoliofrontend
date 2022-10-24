@@ -54,9 +54,9 @@ const About = () => {
           {aboutme && <p>{aboutme.intro[0]}</p>}
           {aboutme && <p>{aboutme.intro[1]}</p>}
 
-          <a href="#contact" className="btn btn-primary">
+          {/* <a href="#contact" className="btn btn-primary">
             Let's Talk
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

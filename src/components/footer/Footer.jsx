@@ -30,9 +30,9 @@ const Footer = () => {
         {/* <li>
           <a href="#testimonials">Testimonials</a>
         </li> */}
-        <li>
+        {/* <li>
           <a href="#contact">Contact</a>
-        </li>
+        </li> */}
       </ul>
 
       {/* <div className="footer__socials">
