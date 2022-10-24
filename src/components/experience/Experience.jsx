@@ -4,7 +4,7 @@ import "./experience.css";
 import Article from "./experienceArticle/Article";
 const Experience = () => {
   const [skills, setSkills] = useState();
-  const urlAboutMe = "http://localhost:5000/skills";
+  const urlAboutMe = "https://guangyangportfolio.herokuapp.com/skills";
   useEffect(() => {
     const fetchAPI = async () => {
       const jsonData = await fetch(urlAboutMe);

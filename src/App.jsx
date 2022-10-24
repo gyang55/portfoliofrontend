@@ -5,8 +5,8 @@ import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Education from "./components/education/Education";
 import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials";
-import Contact from "./components/contact/Contact";
+// import Testimonials from "./components/testimonials/Testimonials";
+// import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
@@ -18,8 +18,8 @@ const App = () => {
       <Experience />
       <Education />
       <Portfolio />
-      <Testimonials />
-      <Contact />
+      {/* <Testimonials /> */}
+      {/* <Contact /> */}
       <Footer />
     </Fragment>
   );

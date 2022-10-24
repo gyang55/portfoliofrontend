@@ -3,7 +3,7 @@ import School from "./school/School";
 import "./Education.css";
 const Education = () => {
   const [schools, setSchools] = useState();
-  const urlAboutMe = "http://localhost:5000/school";
+  const urlAboutMe = "https://guangyangportfolio.herokuapp.com/school";
   useEffect(() => {
     const fetchAPI = async () => {
       const jsonData = await fetch(urlAboutMe);

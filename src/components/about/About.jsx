@@ -8,7 +8,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   const [aboutme, setAboutme] = useState();
 
-  const urlAboutMe = "http://localhost:5000/aboutme";
+  const urlAboutMe = "https://guangyangportfolio.herokuapp.com/aboutme";
   useEffect(() => {
     const fetchAPI = async () => {
       const jsonData = await fetch(urlAboutMe);

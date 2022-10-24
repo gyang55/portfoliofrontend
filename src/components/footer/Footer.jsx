@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        Roland Yang
+        Guang Yang
       </a>
 
       <ul className="permalinks">
@@ -22,14 +22,14 @@ const Footer = () => {
           <a href="#experience">Expeirience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">Education</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contact">Contact</a>
         </li>
