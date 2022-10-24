@@ -1,6 +1,6 @@
 import React from "react";
-import CV from "../../assets/Resume_RolandYang.pdf";
-import CoverLetter from "../../assets/cover_letterdocx.pdf";
+import CV from "../../assets/Resume.pdf";
+import CoverLetter from "../../assets/cover_letter.pdf";
 
 const CTA = () => {
   return (
