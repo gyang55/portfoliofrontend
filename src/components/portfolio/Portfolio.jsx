@@ -17,7 +17,7 @@ const Portfolio = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <iframe src={vid} alt={title} />
+                <iframe src={vid} alt={title} allowFullScreen="true" />
               </div>
               <h3>{title}</h3>
               <h5>{intro}</h5>
